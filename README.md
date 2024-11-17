@@ -15,6 +15,17 @@ Data From: https://github.com/ihebski/DefaultCreds-cheat-sheet
 - The table is built using the Table Builder and the data is fetched using Livewire.
 - The theme is toggled using local storage and the table is responsive.
 
+Docs: https://filamentphp.com/docs/3.x/tables/installation
+
+### Steps to run the project
+- Clone the repository
+- `composer install`
+- `cp .env.example .env`
+- `touch database/database.sqlite`
+- `php artisan key:generate`
+- `php artisan migrate:fresh --seed`
+- `php artisan serve`
+
 ### Screenshot
 
 ![Default Credentials Cheat Sheet](./art/screenshot.png)
