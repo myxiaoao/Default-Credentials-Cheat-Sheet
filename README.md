@@ -19,8 +19,8 @@ Docs: https://filamentphp.com/docs/3.x/tables/installation
 
 ### Steps to run the project
 - Clone the repository
-- `composer install`
 - `cp .env.example .env`
+- `composer install`
 - `touch database/database.sqlite`
 - `php artisan key:generate`
 - `php artisan migrate:fresh --seed`
